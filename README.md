@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pomodoro Timer App
 
-## Getting Started
+This is a Pomodoro Timer app built using React. The app helps you manage your work time and breaks using a simple and intuitive interface.
 
-First, run the development server:
+## Features
+
+- Countdown timer for work sessions
+- Start/Stop functionality
+- Reset timer
+- Short break option
+- Task checklist
+- Real-time weather display based on geolocation
+- Copy text to clipboard
+
+## Installation
+
+1. Clone the repository to your local machine:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/f1133/Productivity.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+cd pomodoro-timer
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install the required dependencies:
 
-## Learn More
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The app will be accessible at http://localhost:3000.
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Set your desired work duration and start the timer. Click on the timer button to pause or resume the timer. Use the "Reset" button to restart the timer. Click the "Start Break" button to start a short break session. Add tasks to the checklist. Check and uncheck tasks as they are completed. Remove tasks from the checklist. View real-time weather information based on your geolocation.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## Credits
+
+This project was created by Slickback.
+
+## License
+
+This project is open-source and available under the MIT License.
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
