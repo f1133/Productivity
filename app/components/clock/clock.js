@@ -24,7 +24,6 @@ export default function clock() {
 <p>
   {time_val.toLocaleDateString(undefined, {
     weekday: "long",
-  
     month: "long",
     day: "numeric",
   })}
